@@ -25,7 +25,7 @@ bin/kafka-topics.sh --create \
     
 4. Start terminal to follow input and ouput topics
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 \
-    --topic tracking \
+    --topic tracking-topic \
     --from-beginning \
     --formatter kafka.tools.DefaultMessageFormatter \
     --property print.key=true \
