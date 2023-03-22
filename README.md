@@ -10,6 +10,7 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 2. Start kafka
 
 bin/kafka-server-start.sh config/server.properties
+
 Note: skip step 1 and 2 if use Kafka of TestOps
 
 3. Craete input and output topic
